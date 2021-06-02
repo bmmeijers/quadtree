@@ -1,0 +1,12 @@
+# INSTALL
+
+```
+# make a virtual environment
+python3 -m venv env3
+
+# activate it
+source ./env3/bin/activate
+
+# install the package in edit mode
+python -m pip install -e git+https://github.com/bmmeijers/quadtree.git
+```
